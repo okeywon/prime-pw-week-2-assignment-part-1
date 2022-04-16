@@ -1,23 +1,23 @@
 // REQUIRED FEATURES:
 // 1 - Create a variable called `firstName` and assign it the value of your first name
-var firstName = "Courtney";
+let firstName = "Courtney ";
 // 2 - Create a second variable called `lastName` and assign it the value of your last name
-var lastName = "Azar";
+let lastName = "Azar";
 // 3 - Create a third variable called `fullName`, assign it the value of your first and last name
 // (remember, you already have variables for this, can you use those?)
 let fullName = firstName+lastName;
 // 4 - Console log the value of `fullName`
 console.log(fullName);
 // 5 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
-var luckyNumber = "22";
+let luckyNumber = 2;
 // 6 - Console log this sentence, adding in the variables you created above: 
 // 'My name is (full name), and I think (lucky number) is a winner!'.
 // Refer back to the videos if you need help with this one.
-console.log("My name is ", fullName, " and I think ", luckyNumber, " is a winner!");
+console.log("My name is", fullName, "and I think", luckyNumber, "is a winner!");
 // 7 - Create a variable named `adventurous` and set it to a boolean value (true or false)
-var adventurous = (true || false);
+let adventurous = (true);
 // 8 - Create a variable named `food`, and set its value to a string of your favorite food
-var food = "spaghetti";
+let food = "spaghetti";
 // 9 - Create a variable called `pets` and set it to the value of the number of pets you have
 let pets = 2;
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
@@ -32,6 +32,8 @@ console.log(pets);
 // if it's not true, console log "How about we stay home?"
 if (adventurous == true) {
     console.log("Adventures are great!")
+} else {
+    console.log("How about we stay home?")
 }
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
 // console log "Roll the dice!"
@@ -69,7 +71,6 @@ console.log("Most pets now equals ", mostPets);
 //      "Third is the one with the polka dot dress" if your lucky number is 3
 //      Otherwise, log "Luck is what happens when preparation meets opportunity"
 //      You'll need to research how to use switch statements!
-var luckyNumber = 2;
 switch (luckyNumber) {
     case 1 :
         console.log("First is the worst")
